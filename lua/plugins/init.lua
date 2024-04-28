@@ -73,4 +73,20 @@ return {
       },
     },
   },
+
+  -- Run :Copilot auth to setup
+  {
+    "zbirenbaum/copilot.lua",
+    event = "InsertEnter",
+    opts = {
+      suggestion = {
+        auto_trigger = true,
+      },
+    },
+  },
+
+  {
+    "Djancyp/better-comments.nvim",
+    lazy = false,
+  },
 }
