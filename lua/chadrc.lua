@@ -11,6 +11,8 @@ M.ui = {
     Comment = { italic = true },
     ["@comment"] = { italic = true }, -- Ensures treesitter and other comment highlights are also italic
   },
+
+  transparency = true,
 }
 
 return M

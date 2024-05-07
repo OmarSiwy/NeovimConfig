@@ -20,6 +20,9 @@ local servers = {
   "omnisharp", -- for C#
   "gopls", -- for Go
   "dartls", -- for Dart and Flutter
+  "zls", -- for Zig
+  "dockerls", -- for Docker
+  "pyright", -- For Python
 }
 
 -- Setup lsp servers with default config
