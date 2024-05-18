@@ -23,6 +23,7 @@ local servers = {
   "zls", -- for Zig
   "dockerls", -- for Docker
   "pyright", -- For Python
+  "opencl_ls", -- forr OpenCL
 }
 
 -- Setup lsp servers with default config

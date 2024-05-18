@@ -37,6 +37,7 @@ return {
         "taplo",
         "zls",
         "pyright",
+        "opencl-language-server",
       },
     },
   },
@@ -85,6 +86,9 @@ return {
     opts = {
       suggestion = {
         auto_trigger = true,
+        keymap = {
+          accept = "<Tab>",
+        },
       },
     },
   },
